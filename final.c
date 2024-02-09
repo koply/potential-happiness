@@ -34,7 +34,7 @@ void question3() {
     int toplam = 0;
     for (int i = 0; i<M; i++) {
         for (int j = 0; j<N; j++) {
-            if (i % 11 == 0) toplam += arr[i][j];
+            if (arr[i][j] % 11 == 0) toplam += arr[i][j];
         }
     }
     printf("Toplam: %d", toplam);
