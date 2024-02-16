@@ -12,7 +12,7 @@ void question4() {
     for (int i = min; i<max; i++) {
         char* tekCift = i % 2 == 0 ? "çift" : "tek";
         char* pozitifNegatif = i < 0 ? "negatif" : "pozitif";
-        printf("%d sayisi %c ve %c", i, tekCift, pozitifNegatif);
+        printf("%d sayisi %s ve %s", i, tekCift, pozitifNegatif);
     }
 }
 
